@@ -388,16 +388,13 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""
-.sSSSSs.    .sSSS SSSSS         SsSSs.    .sSSSSs.    .sSSSSs.    
-SSSSSSSSSs. SSSSS SSSSS           SSSSs   SSSSSSSSSs. SSSSSSSSSs. 
-S SSS SSSSS S SSS SSSSS           S SSS   S SSS SSSSS S SSS SSSSS 
-S  SS SSSS' S  SS SSSSS           S  SS   S  SS SSSSS S  SS SSSSS 
-S..SSsSSSa. `..SSsSSSs' sssssss   S..SS   S..SS\SSSSS S..SS\SSSSS 
-S:::S SSSSS s:::S SSSSs           S:::S   S:::S SSSSS S:::S SSSSS 
-S;;;S SSSSS S;;;S SSSSS           S;;;S   S;;;S SSSSS S;;;S SSSSS 
-S%%%S SSSSS S%%%S SSSSS           S%%%S   S%%%S SSSSS S%%%S SSSSS 
-SSSSS SSSSS SSSSS SSSSS         SsSSSSSsS `:;SSsSS;:' `:;SSsSS;:' 
-                                                                  
+
+██████╗ ██╗  ██╗      ██╗ ██████╗  ██████╗ 
+██╔══██╗╚██╗██╔╝     ███║██╔═████╗██╔═████╗
+██████╔╝ ╚███╔╝█████╗╚██║██║██╔██║██║██╔██║
+██╔══██╗ ██╔██╗╚════╝ ██║████╔╝██║████╔╝██║
+██║  ██║██╔╝ ██╗      ██║╚██████╔╝╚██████╔╝
+╚═╝  ╚═╝╚═╝  ╚═╝      ╚═╝ ╚═════╝  ╚═════╝                    
 
                                                                                                                                  
 [1;95m─────────────────────────────────────────────────────
